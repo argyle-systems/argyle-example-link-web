@@ -1,6 +1,6 @@
 # Argyle Link Integration
 
-[Argyle Link](https://argyle.io/docs/argyle-link/overview) is a front-end UI element that allows your users to grant your application access to their workforce accounts. This example demonstrates the different ways of integrating Argyle Link into your website. 
+[Argyle Link](https://argyle.io/docs/argyle-link/overview) is a front-end UI element that allows your users to grant your application access to their workforce accounts. This example demonstrates the different ways of integrating Argyle Link into your website.
 
 <br>
 
@@ -73,9 +73,9 @@ Argyle.create({
 
 ### 4. Your own menu
 
-Sometimes you might want to implement your own data partners list instead of showing the one from Argyle Link. 
+Sometimes you might want to implement your own data partners list instead of showing the one from Argyle Link.
 
-In this case you can run  two different instances of Link and open them from your own UI. Here's an example:
+In this case you can run two different instances of Link and open them from your own UI. Here's an example:
 
 ```js
 const initArgyle = (providedDataPartners) => {
