@@ -2,7 +2,7 @@
 
 [Argyle Link](https://argyle.io/docs/argyle-link/overview) is a front-end UI element that allows your users to grant your application access to their workforce accounts. This example shows a simple way to integrate the link inside HTML file in different possible ways.
 
----
+<br>
 
 ## Link Options :crystal_ball:
 
