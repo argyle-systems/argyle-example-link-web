@@ -12,14 +12,42 @@ Switching between different options menu resets the `userToken` for the plugin. 
 
 Opens the Link without provided any data partners - shows menu of all available data partners.
 
+<details open><summary>Whole data partner menu demo</summary>
+<br>
+  <p align="center">
+    <img src="./demo-gifs/whole-menu.gif" alt="Whole data partner menu gif">
+  </p>
+</details>
+
 ### 2. One data partner
 
 Providing only one data partner Link displays immediately the sign in screen for this data partner not showing the list menu of partners.
+
+<details open><summary>One data partner demo</summary>
+<br>
+  <p align="center">
+    <img src="./demo-gifs/one-partner.gif" alt="One data partner gif">
+  </p>
+</details>
 
 ### 3. Two data partners
 
 When two data partners are provided to the Link it displays menu of the data partners that has been provided, not displaying any other partners.
 
+<details open><summary>Two data partners demo</summary>
+<br>
+  <p align="center">
+    <img src="./demo-gifs/two-partners.gif" alt="Two data partners gif">
+  </p>
+</details>
+
 ### 4. Your own menu
 
 Example how to open multiple Link instances, for example if you want to provide two data partners but not show the list menu of them - here we provide two seperate button where each opens its own data partner individual sign in form.
+
+<details open><summary>Your own menu demo</summary>
+<br>
+  <p align="center">
+    <img src="./demo-gifs/own-menu.gif" alt="Your own menu gif">
+  </p>
+</details>
