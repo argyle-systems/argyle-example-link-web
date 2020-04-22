@@ -1,6 +1,6 @@
 # Argyle Link Integration
 
-[Argyle Link](https://argyle.io/docs/argyle-link/overview) is a front-end UI element that allows your users to grant your application access to their workforce accounts. This example shows a simple way to integrate the link inside HTML file in different possible ways.
+[Argyle Link](https://argyle.io/docs/argyle-link/overview) is a front-end UI element that allows your users to grant your application access to their workforce accounts. This example demonstrates the different ways of integrating Argyle Link into your website. 
 
 <br>
 
@@ -8,9 +8,9 @@
 
 Switching between different options menu resets the `userToken` for the plugin. If you connect multiple partners staying in one of menu items, the `userToken` is saved and reused for the plugin ensuring all accounts are connected for the same user and the same state is retained.
 
-### 1. Whole data partner menu
+### 1. Full data partner menu
 
-Opens the Link without provided any data partners - shows menu of all available data partners.
+When the `dataPartners` parameter is not set, Argyle Link lists all available data partners.
 
 ```js
 Argyle.create({
@@ -31,7 +31,7 @@ Argyle.create({
 
 ### 2. One data partner
 
-Providing only one data partner Link displays immediately the sign in screen for this data partner not showing the list menu of partners.
+If the `dataPartners` list is initialized with a single data partner id –– Argyle Link immediately shows that partner's login screen instead of the list.
 
 ```js
 Argyle.create({
@@ -52,7 +52,7 @@ Argyle.create({
 
 ### 3. Two data partners
 
-When two data partners are provided to the Link it displays menu of the data partners that has been provided, not displaying any other partners.
+When two or more data partners are provided, Argyle Link displays only the data partners you specified.
 
 ```js
 Argyle.create({
@@ -73,7 +73,9 @@ Argyle.create({
 
 ### 4. Your own menu
 
-Example how to open multiple Link instances, for example if you want to provide two data partners but not show the list menu of them - here we provide two seperate button where each opens its own data partner individual sign in form.
+Sometimes you might want to implement your own data partners list instead of showing the one from Argyle Link. 
+
+In this case you can run  two different instances of Link and open them from your own UI. Here's an example:
 
 ```js
 const initArgyle = (providedDataPartners) => {
