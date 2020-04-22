@@ -16,13 +16,13 @@ Opens the Link without provided any data partners - shows menu of all available 
 Argyle.create({
   pluginKey: "your_plugin_key",
   dataPartners: [],
-  //userToken: 'user_token',
+  //userToken: "user_token",
 });
 ```
 
 <br>
 
-<details open><summary>Whole data partner menu demo</summary>
+<details open><summary>Whole data partner menu demo :globe_with_meridians:</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/whole-menu.gif" alt="Whole data partner menu gif">
@@ -37,13 +37,13 @@ Providing only one data partner Link displays immediately the sign in screen for
 Argyle.create({
   pluginKey: "your_plugin_key",
   dataPartners: ["uber"],
-  //userToken: 'user_token',
+  //userToken: "user_token",
 });
 ```
 
 <br>
 
-<details open><summary>One data partner demo</summary>
+<details open><summary>One data partner demo :wolf:</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/one-partner.gif" alt="One data partner gif">
@@ -58,13 +58,13 @@ When two data partners are provided to the Link it displays menu of the data par
 Argyle.create({
   pluginKey: "your_plugin_key",
   dataPartners: ["uber", "lyft"],
-  //userToken: 'user_token',
+  //userToken: "user_token",
 });
 ```
 
 <br>
 
-<details open><summary>Two data partners demo</summary>
+<details open><summary>Two data partners demo :cherries:</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/two-partners.gif" alt="Two data partners gif">
@@ -80,14 +80,14 @@ const initArgyle = (providedDataPartners) => {
   return Argyle.create({
     pluginKey: "your_plugin_key",
     dataPartners: providedDataPartners,
-    //userToken: 'user_token',
+    //userToken: "user_token",
   });
 };
 ```
 
 <br>
 
-<details open><summary>Your own menu demo</summary>
+<details open><summary>Your own menu demo :pizza:</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/own-menu.gif" alt="Your own menu gif">
