@@ -22,7 +22,7 @@ Argyle.create({
 
 <br>
 
-<details open><summary>Whole data partner menu demo :globe_with_meridians:</summary>
+<details open><summary>:globe_with_meridians: Whole data partner menu demo </summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/whole-menu.gif" alt="Whole data partner menu gif">
@@ -43,7 +43,7 @@ Argyle.create({
 
 <br>
 
-<details open><summary>One data partner demo :wolf:</summary>
+<details open><summary>:wolf: One data partner demo</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/one-partner.gif" alt="One data partner gif">
@@ -64,7 +64,7 @@ Argyle.create({
 
 <br>
 
-<details open><summary>Two data partners demo :cherries:</summary>
+<details open><summary>:cherries: Two data partners demo</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/two-partners.gif" alt="Two data partners gif">
@@ -87,7 +87,7 @@ const initArgyle = (providedDataPartners) => {
 
 <br>
 
-<details open><summary>Your own menu demo :pizza:</summary>
+<details open><summary>:pizza: Your own menu demo</summary>
 <br>
   <p align="center">
     <img src="./demo-gifs/own-menu.gif" alt="Your own menu gif">
